@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f586;
+}
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6f61;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.purchase-details {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.purchase-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.purchase-details label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.purchase-details input,
+.purchase-details select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.purchase-details button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}

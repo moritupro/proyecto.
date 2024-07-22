@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6f61;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.testimonios {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #94f1e3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.testimonios h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 5px solid #007BFF;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.testimonial p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+.testimonial p:last-of-type {
+    font-size: 0.9em;
+    color: #777;
+}
